@@ -122,13 +122,13 @@ export function App() {
           {countries.map((country) => {
             return (
               <button
-              className=" w-40 h-36 text-lg my-1  bg-blue-100 rounded-lg
+                className=" w-40 h-36 text-lg my-1  bg-blue-100 rounded-lg
                           hover:scale-110 hover:shadow-md hover:shadow-gray-500 active:scale-100 transition-all hover:cursor-pointer
                           sm:my-2"
                 onClick={() => setSelectedCountry(country)}
               >
-                <li className="flex flex-col items-center justify-center"
-                  
+                <li
+                  className="flex flex-col items-center justify-center"
                   key={country.name}
                   id={country.name}
                 >
@@ -148,10 +148,10 @@ export function App() {
         </ul>
       </div>
       {selectedCountry ? (
-        <div className=" w-full  h-screen absolute top-0 flex items-center justify-center px-4">
+        <div className=" w-full  h-screen px-4 absolute top-0 flex items-center justify-center">
           <div
             className=" h-[50vh] max-h-[400px] min-h-[260px] px-5 flex flex-col items-center justify-around bg-gray-300 opacity-100 rounded-lg
-                      "
+            shadow-lg shadow-gray-400           "
           >
             <div className=" flex items-center justify-center gap-4 sm:gap-4 ">
               <button
@@ -173,28 +173,31 @@ export function App() {
               />
             </div>
 
-            <div>
-              <ul className=" flex flex-wrap">
+            <div className=" w-full flex items-center justify-center">
+              <ul className=" flex flex-wrap items-center justify-center gap-4">
                 {selectedCountry.companies.map((company) => {
                   return (
-                    <li
-                      key={company.name}
-                      className=" text-lg mx-5 flex flex-col items-center"
-                      id={company.name}
+                    <a
+                      className=" w-24 h-24 p-1 flex items-center justify-center text-lg  bg-white rounded-lg
+                    hover:scale-110 hover:shadow-md hover:shadow-gray-600 active:scale-100 transition-all hover:cursor-pointer
+                    sm:w-32 sm:h-32 sm:my-2 sm:p-4"
+                      href={company.termsURL}
+                      target="blank"
                     >
-                      <a
-                        className=" hover:scale-110 transition-all"
-                        href={company.termsURL}
-                        target="blank"
+                      <li
+                        className="  flex flex-col items-center justify-center"
+                        key={company.name}
+                        id={company.name}
                       >
                         <img
-                          className=" w-20"
+                          className=" w-20 h-auto sm:w-28"
                           src={company.logoImgURL}
                           alt={`${company.name} Company Logo`}
                         />
-                      </a>
-                      <h3>{company.name}</h3>
-                    </li>
+
+                        {/* <h3 className=" font-bold text-lg sm:text-xl">{company.name}</h3> */}
+                      </li>
+                    </a>
                   );
                 })}
               </ul>

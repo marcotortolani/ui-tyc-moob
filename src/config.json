@@ -5,7 +5,22 @@
     "companies": [
       {
         "name": "Movistar",
-        "logoImgURL": "/img/movistar-logo.png",
+        "logoImgURL": "/img/movistar_logo.png",
+        "termsURL": ""
+      },
+      {
+        "name": "Claro",
+        "logoImgURL": "/img/claro_logo.png",
+        "termsURL": ""
+      },
+      {
+        "name": "Personal",
+        "logoImgURL": "/img/personal_logo.png",
+        "termsURL": ""
+      },
+      {
+        "name": "Orange",
+        "logoImgURL": "/img/orange_logo.png",
         "termsURL": ""
       }
     ]
@@ -16,7 +31,7 @@
     "companies": [
       {
         "name": "Claro",
-        "logoImgURL": "/img/claro-logo.png",
+        "logoImgURL": "/img/claro_logo.png",
         "termsURL": ""
       }
     ]
@@ -27,7 +42,7 @@
     "companies": [
       {
         "name": "Claro",
-        "logoImgURL": "/img/claro-logo.png",
+        "logoImgURL": "/img/claro_logo.png",
         "termsURL": ""
       }
     ]
@@ -38,12 +53,12 @@
     "companies": [
       {
         "name": "Movistar",
-        "logoImgURL": "/img/movistar-logo.png",
+        "logoImgURL": "/img/movistar_logo.png",
         "termsURL": ""
       },
       {
         "name": "Orange",
-        "logoImgURL": "",
+        "logoImgURL": "/img/orange_logo.png",
         "termsURL": ""
       }
     ]
@@ -54,7 +69,7 @@
     "companies": [
       {
         "name": "TelCel",
-        "logoImgURL": "",
+        "logoImgURL": "/img/telcel_logo.png",
         "termsURL": ""
       }
     ]
@@ -65,7 +80,7 @@
     "companies": [
       {
         "name": "Vodacom",
-        "logoImgURL": "",
+        "logoImgURL": "/img/vodacom_logo.png",
         "termsURL": ""
       }
     ]
@@ -76,7 +91,7 @@
     "companies": [
       {
         "name": "Personal",
-        "logoImgURL": "",
+        "logoImgURL": "/img/personal_logo.png",
         "termsURL": ""
       }
     ]
@@ -87,7 +102,7 @@
     "companies": [
       {
         "name": "Entel",
-        "logoImgURL": "",
+        "logoImgURL": "/img/entel_logo.jpg",
         "termsURL": ""
       }
     ]
@@ -98,7 +113,7 @@
     "companies": [
       {
         "name": "Altice",
-        "logoImgURL": "",
+        "logoImgURL": "/img/altice_logo.png",
         "termsURL": ""
       }
     ]
@@ -109,7 +124,7 @@
     "companies": [
       {
         "name": "Movistar",
-        "logoImgURL": "",
+        "logoImgURL": "/img/movistar_logo.png",
         "termsURL": ""
       }
     ]
