@@ -113,7 +113,7 @@ export function App() {
   return (
     <section className=" w-screen h-full max-w-3xl flex flex-col items-center justify-center bg-transparent">
       <div className=" flex flex-col items-center justify-center">
-        <h1 className=" text-xl font-mono">UI Terminos y Condiciones</h1>
+        {/* <h1 className=" text-xl font-mono">UI Terminos y Condiciones</h1> */}
 
         <ul
           className=" p-4 flex flex-wrap justify-center gap-4 
