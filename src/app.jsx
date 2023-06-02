@@ -148,10 +148,10 @@ export function App() {
         </ul>
       </div>
       {selectedCountry ? (
-        <div className=" w-full  h-screen px-4 absolute top-0 flex items-center justify-center">
+        <div className=" w-full  h-screen px-6 absolute top-0 flex items-center justify-center">
           <div
-            className=" h-[50vh] max-h-[400px] min-h-[260px] px-5 flex flex-col items-center justify-around bg-gray-300 opacity-100 rounded-lg
-            shadow-lg shadow-gray-400           "
+            className=" h-[50vh] max-h-[400px] min-h-[260px] px-4 fixed flex flex-col items-center justify-around bg-gray-300 opacity-100 rounded-lg
+            shadow-lg shadow-gray-600           "
           >
             <div className=" flex items-center justify-center gap-4 sm:gap-4 ">
               <button
