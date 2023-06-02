@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Argentina",
+    "countryCode": "AR",
+    "companies": [
+      {
+        "name": "Movistar",
+        "logoImgURL": "/img/movistar-logo.png",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "Brasil",
+    "countryCode": "BR",
+    "companies": [
+      {
+        "name": "Claro",
+        "logoImgURL": "/img/claro-logo.png",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "Colombia",
+    "countryCode": "CO",
+    "companies": [
+      {
+        "name": "Claro",
+        "logoImgURL": "/img/claro-logo.png",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "España",
+    "countryCode": "ES",    
+    "companies": [
+      {
+        "name": "Movistar",
+        "logoImgURL": "/img/movistar-logo.png",
+        "termsURL": ""
+      },
+      {
+        "name": "Orange",
+        "logoImgURL": "",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "México",
+    "countryCode": "MX",
+    "companies": [
+      {
+        "name": "TelCel",
+        "logoImgURL": "",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "Mozambique",
+    "countryCode": "MZ",
+    "companies": [
+      {
+        "name": "Vodacom",
+        "logoImgURL": "",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "Paraguay",
+    "countryCode": "PY",
+    "companies": [
+      {
+        "name": "Personal",
+        "logoImgURL": "",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "Perú",
+    "countryCode": "PE",
+    "companies": [
+      {
+        "name": "Entel",
+        "logoImgURL": "",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "Rep. Dominicana",
+    "countryCode": "DO",
+    "companies": [
+      {
+        "name": "Altice",
+        "logoImgURL": "",
+        "termsURL": ""
+      }
+    ]
+  },
+  {
+    "name": "Venezuela",
+    "countryCode": "VE",
+    "companies": [
+      {
+        "name": "Movistar",
+        "logoImgURL": "",
+        "termsURL": ""
+      }
+    ]
+  }
+]
